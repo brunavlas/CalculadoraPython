@@ -1,0 +1,26 @@
+print("\n******************* Calculadora Python *******************")
+print("\n")
+print('Selecione o número da operação desejada: \n\n 1 - Soma \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão')
+
+operação = int(input('\nDigite sua opção (1/2/3/4): '))
+fstNum = int(input('\nDigite o primeiro número: '))
+sndNum = int(input('\nDigite o segundo número: '))
+
+if operação == 1:
+    print("\n")
+    print(fstNum, "+", sndNum, "=", (fstNum + sndNum))
+
+elif operação == 2:
+    print("\n")
+    print(fstNum, "-", sndNum, "=", (fstNum - sndNum))
+
+elif operação == 3:
+    print("\n")
+    print(fstNum, "*", sndNum, "=", (fstNum * sndNum))
+
+elif operação == 4:
+    print("\n")
+    print(fstNum, "/", sndNum, "=", (fstNum / sndNum))
+
+else:
+    print('\nOpção Inválida!')

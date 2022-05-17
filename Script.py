@@ -1,5 +1,5 @@
 ''' 
-Quando rodar o código isso é o que aparece inicialmente na tela para o usuário.
+Quando rodar o código isso é o que aparece inicialmente na tela para o usuário:
 '''
 
 
@@ -22,7 +22,7 @@ sndNum = int(input('\nDigite o segundo número: '))
 
 '''
 Aqui foram delimitadas as condições.
-Se a entrada dor primeiro input for 1, será feita uma soma com o segundo e terceiro input (fstNum e sndNum).
+Se a entrada do primeiro input for 1, será feita uma soma com o segundo e terceiro input (fstNum e sndNum).
 Se a entrada for '2', será feita uma subtração, se for '3' multiplicação, se '4', divisão.
 '''
 
@@ -46,7 +46,7 @@ elif operação == 4:
 
 '''
 Caso as condições acima não forem atendidas, ou seja,
-caso a primeira entrada seja diferente de 1, 2, 3 ou 4, a seguinte mensagem de erro aparece.
+caso a primeira entrada seja diferente de 1, 2, 3 ou 4, a seguinte mensagem de erro aparece:
 '''
 
 
